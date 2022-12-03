@@ -8,23 +8,23 @@
 <body style="background-color:#0a0a0a">
 
     <div class="sidenav">
-        <a href="../index.html" >onlinesafety</a>
-        <a href="pages/passwords.html">passwords</a>
-        <a href="pages/payments.html">payments</a>
-        <a href="pages/phishing.html">phishing</a>
-        <a href="vpns.html" class = "active">vpn's</a>
-        <a href="pages/av.html">antiviruses</a>
+        <a href="../index.html" >HOME</a>
+        <a href="pages/passwords.html">PASSWORDS</a>
+        <a href="pages/payments.html">PAYMENTS</a>
+        <a href="pages/phishing.html">PHISHING</a>
+        <a href="vpns.html" class = "active">VPNs</a>
+        <a href="pages/av.html">ANTIVIRUSES</a>
     </div>
       
       <!-- Page content -->
     <div class="main" style = "color:#e8eafb; bottom:60%;position:relative;padding-right:15%" >
        
         <br>
-        <h1>introduction to vpn's</h1>
+        <h1>Introduction to VPNs</h1>
         In 2013 Edward Snowden revealed to the world the ways that governments and big organizations collect data and monitor you remotely, insighting tons of ordinary people to consider their own internet security. By now I am sure you have heard the term VPN floating around somewhere in your life, whether from movies, your work, your friends or pop culture, VPN’s have become increasingly popular over the last decade. 
         <br><br>
         If you haven’t, fear not, as this guide explains the rudimentary, fundamental and essential aspects of VPNs, both in the theory behind them and their practical uses/setting. 
-        <h1>so, what is a vpn??</h1>
+        <h1>So, What is a VPN?</h1>
         VPN stands for Virtual Private Network. They are used to protect your privacy and connection to others on the internet. In general, it works by creating an encrypted (a fancy way of saying hard to read) tunnel for your data, protecting your online identity by hiding your IP-Address from snooping eyes, and allowing you to connect to networks you don’t know a lot about with peace of mind.
         
         <br><br>
@@ -35,16 +35,18 @@
         <strong>Client Based VPN</strong><br>
         A Client Based VPN is a connection that is set up between a single user (you!) and a virtual private network (the network provided by the VPN service), and is the one that is generally recommended for individuals looking to protect their personal data. A client based VPN will generally be a piece of software that is downloaded onto your personal device, it will do most of the work for you, you simply need to log in and connect to a network of your choosing! Once you log in, the software (or client) will create an encrypted tunnel between your personal device and the client’s remote network. The clients can communicate with each other using a unique IP address that has been assigned to them from the software. 
         <br>
-        Here’s a picture:
-        <img src="../res/vpn.jpg" alt="" style ="width:90%"><br><br>
+        <br><br/>
+        Here’s a picture:<br><br/>
+        <img src="../res/vpn.jpg" alt="" width="1000"><br><br>
         <strong>Site to Site:</strong><br>
         A site to site VPN is a connection that is set up between multiple networks, and is generally found in corporate or branch networks. Think of three branches or offices of a large company. They all need some way to communicate with the main office, and companies want to be able to encrypt their data such that it is protected from others outside the company. Site to site VPNs allow the secure transfer of large amounts of data, and use a corporate network or data-center (like the ones you see in movies) to create a secure connection for many individuals to one central network. Since this guide is focussed on helping every-day individuals protect their internet safety, it will primarily focus on using a Client Based VPN. 
         <br><br>
-        <h1>basic vpn protocols:</h1>
+        <h1>Basic VPN Protocols</h1>
         <br>
         If you are uninterested in the different Protocols that are commonly found in VPNs, you can skip this part! Otherwise here are the common protocols and a brief spiel about each:
         <br><br>
         <strong>IPSec / IKEv2 (Internet Protocol Secure):</strong>
+        
         <br>
         The IPSec/IKEv2 protocol is used to build a tunnel between two networks, following that:<br>
         - The two devices that will be the endpoints of the tunnel are known, usually stored as a pair of single distinct IP addresses.<br>
@@ -62,47 +64,151 @@
         <br><br>
         In general for all of the VPNs we will look at in this guide, they will be using OpenVPN or IPSec / IKEv2 protocols, and will already be set up inside the software / client itself, so the only thing you need to know is that if we are using one of these two protocols, we are in the clear. In case you want a bit more information, here is a more technical comparison: 
         <br><br>
-        <img src="../res/chart1.jpg" alt="" style ="width:90%"><br><br>
+        <img src="../res/chart1.jpg" alt="" width="1000"><br><br>
         
-        <h1>why should i use a vpn?</h1><br>
+        <h1>Why Should I use a VPN?</h1><br>
         So now that you know the fundamentals of the theory behind VPNs, let’s go over some of the benefits of using a VPN.<br><br>
-        <strong>A Vpn can:</strong><br><br>
+        <strong>A VPN can:</strong><br><br>
         - Make you anonymous when browsing online, by hiding your IP.<br>
         - Prevent data mining, by encrypting your data.<br>
         - Prevent unauthorized tracking, by encrypting data and hiding your IP.<br>
         - Provide security on a Public Wi-Fi network.<br>
         - Allow access to content that is region restricted. <br>
         - Keep your data private from your ISP, your Government and the Apps and Services you use.<br><br>
-        <strong>A Vpn does not:</strong><br><br>
+        <strong>A VPN does not:</strong><br><br>
         - Protect you against internet scams.<br>
         - Give you immunity to computer viruses, malware, phishing or ransomware attacks. <br>
         - Protect account activity / time browsing on to ascertain services. <br><br>
 
-        <strong>Well, how exactly is a Vpn providing these benefits?</strong>
+        <strong>Well, how exactly is a VPN providing these benefits?</strong>
         The exact methodology of how a VPN protects you depends on the protocol, and type of VPN, but in general every VPN does two things. First, it hides your IP address, and second, it encrypts your data so that it is unreadable.  A VPN hides your IP address by connecting to an encrypted and private network server, provided by the VPN software, which means that your exact geo-location (which is tied to your IP address) is never given out. Let’s say you were browsing from a local coffee shop in Calgary. If you were to use a VPN, the location of your IP address might say that you are actually in a field in the Netherlands (depending on how the VPN server is set up)! 
         <br><br>
         Now let’s focus on encryption. When I first introduced encryption above, I generalized it by saying it makes your data hard to read. While this is true, it actually goes a step further, current encryption methods are said to be currently uncracked. Modern encryption works by scrambling your data such that only people with the “key” to solve the scramble can understand it. Let’s say I want to send a message “Hello!”. Your VPN would use an encryption algorithm to turn it into something that doesn’t look like “Hello!” at all. Here’s an example of what the message “Hello!” looks like when it is encrypted using an Md2 hash: 9560212d847ba2054621b25d4e44d723. The only way to get readable information from that scramble would be to decrypt it back to the original message, but since modern VPNs use ciphers that have not been solved, only the VPN will know what to do with this encrypted message. This allows protection from unauthorized parties accessing your data, but still allows you to use the internet through your VPN!
         <br><br>
 
-        <h1>okay, enough about the theory, what vpns are avaliable?</h1><br>
+        <h1>Ok, Enough About the Theory, What VPNs are Avaliable?</h1><br>
         Now that you know everything relevant about VPNs, I will first take you through the most popular VPNs currently in use and a comparison of the pros and cons of each, so that you can pick one to get set up on your personal device! Following this section there will be a guide on how to set up your VPN on any device. Unfortunately, having a good VPN usually comes with a monetary cost in the form of a subscription, but fear not as these prices are extremely affordable, with many VPNs fees coming in at $2 per month!
         <br><br>
         The top 3 VPNs according to the research I have done are ExpressVPN, NordVPN and Surfshark. Here is a bit about each:
         <br><br>
         <strong>ExpressVPN</strong><br>
-        ExpressVPN is the industry leader when it comes to consumer VPNs. It is easy to run on any platform or device, has excellent 24/7 live customer support, blazing fast speeds and allows for multiple connections to be run simultaneously. ExpressVPN has 160 server locations across 94 different Countries. ExpressVPN boasts beautiful and intuitive software, so you can spend more time doing what you want on the internet, and less worrying about being protected. ExpressVPN has one of the higher subscription fees out of the three that I will recommend, but that fee can absolutely be worth it to ensure the utmost privacy and protection. Check them out here: https://www.expressvpn.com/. 
+        ExpressVPN is the industry leader when it comes to consumer VPNs. It is easy to run on any platform or device, has excellent 24/7 live customer support, blazing fast speeds and allows for multiple connections to be run simultaneously. ExpressVPN has 160 server locations across 94 different Countries. ExpressVPN boasts beautiful and intuitive software, so you can spend more time doing what you want on the internet, and less worrying about being protected. ExpressVPN has one of the higher subscription fees out of the three that I will recommend, but that fee can absolutely be worth it to ensure the utmost privacy and protection. Check them out here: <a href="https://expressVPN.com/">https://expressVPN.com/</a>. 
         <br><br>
         <strong>NordVPN</strong><br>
-        NordVPN is a close second. Like ExpressVPN it is easy to set up and run on any platform or device. NordVPN has a solid 24/7 live customer support feature, and boasts solid software that is easy and intuitive. It is the easiest VPN to set up, with just the click of a button to get connected, and provides immense security and excellent connectivity speeds. NordVPN beats the other two options in terms of usability, and has the newest improvements from the cyber-security industry. NordVPN has incredibly affordable subscription fees, especially if you buy a yearly subscription. Check them out here: https://nordvpn.com/.
+        NordVPN is a close second. Like ExpressVPN it is easy to set up and run on any platform or device. NordVPN has a solid 24/7 live customer support feature, and boasts solid software that is easy and intuitive. It is the easiest VPN to set up, with just the click of a button to get connected, and provides immense security and excellent connectivity speeds. NordVPN beats the other two options in terms of usability, and has the newest improvements from the cyber-security industry. NordVPN has incredibly affordable subscription fees, especially if you buy a yearly subscription. Check them out here: <a href="https://nordVPN.com/">https://nordVPN.com/</a>.
         <br><br>
         <strong>SurfShark</strong><br>
-        Although SurfShark comes last in my list of recommendations, I still believe that it is an incredibly solid VPN. SurfShark is the most affordable VPN on this list, with consistent sales and promotions, making it a great deal. Unlike the other two VPNs, SurfShark allows for connections across any number of devices. It also includes an interesting feature which allows you to pause your VPN software with the click of a button. One thing to consider is the SurfShark app is not as streamlined and intuitive as the other two, but that does not mean it is unusable or impossible to figure out. If you are looking for an affordable, solid and excellent VPN, SurfShark is a great choice. Check them out here: https://surfshark.com/
+        Although SurfShark comes last in my list of recommendations, I still believe that it is an incredibly solid VPN. SurfShark is the most affordable VPN on this list, with consistent sales and promotions, making it a great deal. Unlike the other two VPNs, SurfShark allows for connections across any number of devices. It also includes an interesting feature which allows you to pause your VPN software with the click of a button. One thing to consider is the SurfShark app is not as streamlined and intuitive as the other two, but that does not mean it is unusable or impossible to figure out. If you are looking for an affordable, solid and excellent VPN, SurfShark is a great choice. Check them out here: <a href="https://surfshark.com/">https://surfshark.com/</a>
         <br><br>
         I highly recommend you choose a VPN out of the three I listed, but there are many more to consider. Here is a technical comparison of the three I chose:
         <br>
-        <img src="../res/chart2.jpg" alt="" style ="width:90%"><br><br>
+        <img src="../res/chart2.jpg" alt="" width="1000"><br><br>
+        
+        <h1>VPN Setup and Installation Guide</h1>
+        Now that you have chosen a VPN, you are probably wondering how to get it set up and working on your computer. Fear not as this guide will take you through installing a VPN on your personal computer. For this section I am going to demonstrate the installation and usage instructions for NordVPN, but all VPNs will have a similar setup and installation.
+        <br><br>
+        For ALL of the operating systems below, an account is required. You can create an account at any point in the installation process, but I will quickly go over it here.
 
-        <h1>vpn setup and installation guide</h1>
+        <br>
+        <br>
+        <strong>Account Creation</strong>
+        <br><br>
+        1. Navigate to https://nordvpn.com/ and in the top right corner, press log in. 
+        <br><br>
+        2. Press Sign Up.
+        <br><br>
+        3. Enter your email address, password and other necessary account details.
+        <br><br>
+        4. You will have to confirm your account creation by checking your email for a message from NordVPN, don’t worry this is totally safe.
+        <br><br>
+        5. After your account has been created you will likely be asked to choose a subscription. To compare different pricing and subscription options, visit <a href="https://nordVPN.com/pricing/">https://nordVPN.com/pricing/</a>. From there follow the different instructions about online payment. (You are able to continue with the installation without having a paid subscription, but some of the features will be unavailable to you)
+        <br><br><br>
+        <strong>Windows 10/11</strong>
+        <br><br>
+        1. Navigate to <a href="https://nordvpn.com/download/">https://nordvpn.com/download/</a>. Press the <strong>download app</strong> button.
+        <br><br>
+        2. There will be a new file in your <strong>downloads</strong> folder.
+        <br><br>
+        3. <Strong>Run</Strong> the newly downloaded <strong>NordVPNInstall</strong> file and follow the installation instructions. (If you are not sure where you want to install it, the default location is probably fine.)
+        <br><br>
+        4. A pop-up window may ask you if you <strong>trust</strong> this file, please select <strong>yes</strong> as we want to allow NordVPN access to our computer.
+        <br><br>
+        5. If you wish, tick the boxes to allow for a <strong>desktop shortcut</strong> or <strong>start menu shortcut</strong>.
+        <br><br>
+        6. Click <strong>finish</strong> to complete the setup.
+        <br><br>
+        <br><br>
+        <strong>Mac</strong>
+        <br><br>   
+        1. Navigate to <a href="https://nordvpn.com/download/mac/">https://nordvpn.com/download/mac/</a>. Press the download app button.
+        <br><br>
+        2. There will be a new file in your <strong>downloads</strong> folder.
+        <br><br>
+        3. Double click the newly downloaded <strong>NordVPN.pkg</strong>
+        <br><br>
+        4. You will be asked for permission to install NordVPN. Enter your Mac’s <strong>password</strong> and press OK to confirm it with a fingerprint.
+        <br><br>
+        5. Press continue, then select an installation location. (If you are not sure where you want to install it, the default location is probably fine.)
+        <br><br>
+        6. Press <strong>install</strong>, and then close the window once you see it has successfully finished. 
+        <br><br>
+        <br><br>
+        <strong>Linux</strong>
+        <br><br>
+        You can either install it directly through a terminal or through a package manager. The package manager is trivial to install, as it walks you through it, so I will take you through the command line installation.
+        <br><br>
+        1. Navigate to <a href="https://nordvpn.com/download/">https://nordvpn.com/download/</a>. Press the download app button.
+        <br><br>
+        2. Open a <strong>terminal.</strong>
+        <br><br>
+        3. Run the <strong>command</strong> <i>sudo apt-get install /pathToFile/nordvpn-release_1.0.0_all.deb.</i> (pathToFile should be changed to wherever your downloads are stored. Alternatively you can navigate to the directory with the .deb, and run the command without the pathToFile)
+        <br><br>
+        4. Provide your <strong>password.</strong>
+        <br><br>
+        5. Once the installation finished, <strong>update</strong> your packages using the <i>sudo apt-get update</i> command.
+        <br><br>
+        6. <strong>Install</strong> NordVPN by running the command <i>sudo apt-get install nordvpn</i>
+        <br><br>
+        7. <strong>Log In</strong> to NordVPN by running the command <i>nordvpn login</i>
+        <br><br>
+        8. <strong>Connect</strong> to a secure server by running the command <i>nordvpn connect</i>
+        <br><br>
+        <br><br>
+        <Strong>Usage</Strong>
+        <br><br>
+        Here is a quick usage blurb about how to get set up and connected.
+        <br><br>
+        1. Run the NordVPN <strong>software.</strong>
+        <br><br>
+        2. Click <strong>Login</strong> and <strong>Authenticate</strong> using your account details. (This might pop open your browser, totally okay!)
+        <br><br>
+        3. Press <strong>quick-connect</strong> to instantly become protected.
+        <br><br>
+        <br><br>
+        Technically you can stop at this point, and you will have the full security of NordVPN running on your personal computer! If you want to know some more advanced options and settings continue following this section.
+        <br><br>
+        4. The <strong>quick-connect</strong> button automatically connects you to the recommended server.
+        <br><br>
+        5. The <strong>disconnect</strong> button disconnects you from the server that is currently active.
+        <br><br>
+        6. The <strong>refresh</strong> button allows for a refresh of the connection, or to select a new one.
+        <br><br>
+        7. The <strong>search bar</strong> allows you to look for a specific server, based on location or country.
+        <br><br>
+        <br><br>
+        NordVPN offers many more options and settings, and if you want to explore them, feel free to check out this link:<a href="https://nordvpn.com/features/">https://nordvpn.com/features/</a> . There are lots to choose from like threat protection, meshnet and dedicated IP.
+        <br><br>
+        <h1>Next Steps</h1>
+        Now that you have successfully learned what VPNs do, how they work, and chosen and installed your preferred VPN, you are secure on the internet! There aren’t any necessary next steps - just ensure that your VPN connection is always active when using the internet! Hopefully this guide has helped you, if you are interested in learning more please check out the sources that were made to use this guide! 
+
+
+
+
+
+
+
+
+
     </div>
 </body>
 
