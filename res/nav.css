@@ -42,3 +42,8 @@
 h1{
   color:#8c8fa4;
 }
+
+html *
+{
+   font-family: Public Sans !important;
+}
